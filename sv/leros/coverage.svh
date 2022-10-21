@@ -68,7 +68,7 @@ function void coverage::write(leros_command t);
 	//Sample for coverage
 	cg_all_zeros_ones.sample();
 	cg_post_rst.sample();
-endfunction;
+endfunction
 
 /*----------------------------------------------------------------------------*/
 /*  UVM Build Phases                                                          */

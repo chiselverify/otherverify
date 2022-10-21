@@ -1,0 +1,6 @@
+*.pb
+xsim.dir
+axsim.bat
+*.jou
+xsim.covdb
+.Xil

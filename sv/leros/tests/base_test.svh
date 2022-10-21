@@ -50,5 +50,4 @@ task base_test::generate_reset(uvm_phase phase);
 	seq = reset_sequence::type_id::create("seq");
 	seq.starting_phase = phase;
 	seq.start(m_env.m_agent.m_seqr);
-endtask;
-
+endtask

@@ -8,7 +8,7 @@ class agent extends uvm_agent;
 
     //  Group: Components
     monitor m_mon;
-    my_sequencer m_seqr;
+    uvm_sequencer#(base_transaction) m_seqr;
     driver m_driver;
 
 	 //  Group: Variables
@@ -41,7 +41,7 @@ function void agent::build_phase(uvm_phase phase);
     //Build driver and sequencer if necessary
     if(this.is_active) begin
         m_driver = driver::type_id::create("m_driver", this);
-        m_seqr = my_sequencer::type_id::create("m_seqr", this);
+        m_seqr = uvm_sequencer#(base_transaction)::type_id::create("m_seqr", this);
     end
     
 endfunction: build_phase

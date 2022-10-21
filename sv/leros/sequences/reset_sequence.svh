@@ -1,3 +1,4 @@
+import leros_pkg::*;
 //  Class: reset_sequence
 //
 class reset_sequence extends base_sequence;

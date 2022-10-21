@@ -1,3 +1,4 @@
+import uvm_pkg::*;
 //  Class: base_transaction
 class base_transaction extends uvm_sequence_item;
 	typedef base_transaction this_type_t;

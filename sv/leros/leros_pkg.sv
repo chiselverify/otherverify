@@ -26,7 +26,7 @@ package leros_pkg;
 		int no_repeats;
 	endclass;
 
-
+/*
 	//  Group: File includes
 	`include "base_transaction.svh"
 	`include "edge_transaction.svh"
@@ -50,6 +50,6 @@ package leros_pkg;
 	`include "env.svh"
 	`include "base_test.svh"
 	`include "edge_test.svh"
-	`include "random_test.svh"
+	`include "random_test.svh" */
 	
 endpackage: leros_pkg

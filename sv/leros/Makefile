@@ -39,5 +39,12 @@ clean:
 	rm -rf simv.*
 	rm -rf work
 	rm -rf simv
-	rm -f .vlogansetup.args
-	rm -f .vlogansetup.env
+	rm -f  .vlogansetup.args
+	rm -f  .vlogansetup.env
+	rm -f  *.jou
+	rm -rf xsim.dir
+	rm -f  *.pb
+	rm -f  axsim.bat
+	rm -rf xsim.covdb
+	rm -rf *.log
+	rm -rf .Xil
